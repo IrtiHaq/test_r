@@ -75,4 +75,6 @@ plot <- ggplot(plotproccessed, aes(x=team_cohesion_score, y=team_performance,
   theme_light()
 
 plot
+ggsave('plot.png', width = 1920, height = 1080, units = "px")
+
 
